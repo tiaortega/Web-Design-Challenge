@@ -7,7 +7,7 @@
 4) Added all html files, assets, resources, and visualizations to the WebVisualizations folder.
 5) Pushed all work to GitHub.
 
-## Purpose##
+## Purpose
 
 This assignment involved me creating a visualization dashboard website. I used visualizations
 that was created previously in a past assignment. I also included plotted weather data. I created
