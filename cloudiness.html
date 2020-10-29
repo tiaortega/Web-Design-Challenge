@@ -5,7 +5,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -31,17 +37,17 @@
                             Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Max Temperature</a>
-                            <a class="dropdown-item" href="#">Humidity</a>
+                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Cloudiness</a>
-                            <a class="dropdown-item" href="#">Wind Speed</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                         </div>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Data</a>
+                        <a class="nav-link" href="data.html">Data</a>
                     </li>
                     
                     </li>                
@@ -49,12 +55,13 @@
         </div>
 
     </nav>
+</div class="container">
     <div class="row">
         <div class="col-12 col-md-6">
             <div class="landing-block">
                 <h1>Cloudiness</h1>
                 <div class="col-md-12 block-content">
-                    <div class="col-12 float-left" style="display: inline-block;"><img src="WebVisualizations\Resources\assets\images\Fig3.png"/></div>                
+                    <img src="WebVisualizations\Resources\assets\images\Fig3.png"/>                
                     <p style="clear:both;">
                         The City Latitude vs Cloudiness (01/05/17) data is observed as expected with no specific determination of cloudiness increasing or decreasing
                         because of the positon of the equator. There is the obvious correlation of cloudiness and sunlight duration which allows us to see that this
@@ -70,11 +77,10 @@
             <div class="landing-block">
                 <h1>Visualizations</h1>
                 <div class="row">
-                    <div class="col"> <a href="max_temp.html"><img src="WebVisualizations\Resources\assets\images\Fig1.png"/></a></div>
-                    <div class="col"> <a href="humidity.html"><img  src="WebVisualizations\Resources\assets\images\Fig2.png"/></a></div>
-                    <div class="w-100"></div>
-                    <div class="col"> <a href="cloudiness.html"><img style="border: 2px solid teal;" src="WebVisualizations\Resources\assets\images\Fig3.png"/></a></div>                   
-                    <div class="col"> <a href="windspeed.html"><img src="WebVisualizations\Resources\assets\images\Fig4.png"/></a></div>
+                    <div class="col-md-6 col-4"> <a href="max_temp.html"><img src="WebVisualizations\Resources\assets\images\Fig1.png"/></a></div>
+                    <div class="col-md-6 col-4"> <a href="humidity.html"><img  src="WebVisualizations\Resources\assets\images\Fig2.png"/></a></div>                    
+                    <div class="col-md-6 col-4"> <a href="cloudiness.html"><img style="border: 2px solid teal;" src="WebVisualizations\Resources\assets\images\Fig3.png"/></a></div>                   
+                    <div class="col-md-6 col-4"> <a href="windspeed.html"><img src="WebVisualizations\Resources\assets\images\Fig4.png"/></a></div>
                 </div>
 
                 <!-- <div class="col-md-12 block-content">
@@ -82,10 +88,11 @@
                     <a href="humidity.html"> </a><div class="col-3 col-md-6 float-left" style="display: inline-block;"><img src="WebVisualizations\Resources\assets\images\Fig1.png"/></div></a>
                     <a href="cloudiness.html"></a><div class="col-3 col-md-6 float-left" style="display: inline-block;"><img src="WebVisualizations\Resources\assets\images\Fig1.png"/></div></a>
                     <a href="windspeed.html"></a><div class="col-3 col-md-6 float-left" style="display: inline-block;"><img src="WebVisualizations\Resources\assets\images\Fig1.png"/></div></a>
-                </div> ->>
+                </div> -->
             </div>
         </div>
     </div>
+</div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -99,10 +106,4 @@
     -->
 </body>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-</html>
+</html> 
